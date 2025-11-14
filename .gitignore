@@ -1,0 +1,99 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node modules
+frontend/node_modules/
+
+# Metro / RN
+.expo/
+.expo-shared/
+ios/Pods/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+android/build/
+*.iml
+
+# Build / bundle artifacts
+frontend/build/
+frontend/dist/
+
+# Node modules
+backend/node_modules/
+
+# Build artifacts
+backend/dist/
+backend/build/
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Python cache
+*.pyc
+__pycache__/
+ai/__pycache__/
+
+# Virtual environment (venv)
+ai/venv/
+ai/.venv/
+ai/env/
+ai/.env/
+
+# Model weights / large files (예: PyTorch, TensorFlow)
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+
+# FastAPI-related .pyc, 캐시
+ai/server/__pycache__/
+ai/src/__pycache__/
+
+
+ai/uploads/
+ai/temp/
+ai/data/
+ai/cache/
+
+# Firebase, Google Cloud, AWS keys
+*.json
+*.pem
+*.key
+
+# SSH keys
+id_rsa
+id_rsa.pub
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains (WebStorm / PyCharm)
+.idea/
+*.iml
+
+# Python virtual environment (중복 허용)
+env/
+.venv/
+
+# Cache
+.cache/
+.cache-loader/
+
+# Mac 용
+*.swp
