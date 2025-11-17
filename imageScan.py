@@ -18,25 +18,46 @@ import easyocr
 # 1) 라벨 스키마(원하는대로 커스텀)
 # ---------------------------
 RESUME_LABELS = {
+    #기본정보
     "name": None,
     "email": None,
     "phone": None,
-    "links": [],
-    "highest_degree": None,
+
+    # 학력 정보
     "university": None,
+    "university_type": None,  # 인서울/지방대/전문대/기타
     "major": None,
-    "grad_year": None,
+    "major_category": None,  # 주요 전공 or Other
     "gpa": None,
-    "english_scores": {},
-    "languages": [],
-    "programming_langs": [],
-    "frameworks_tools": [],
+    "gpa_scale": None,
+    "grad_year": None,
+    
+    # 어학 점수
+    "english_test_type": None,  # TOEIC/TOEFL/IELTS
+    "english_score": None,
+    
+    # 인턴 경험
+    "intern_experiences": [],  # [{company, company_scale, months}]
+    "intern_count": 0,
+    "intern_total_months": 0,
+    
+    # 수상 경력
+    "awards": [],  # [{name, scale}]
+    "award_count": 0,
+    
+    # 프로젝트
+    "projects": [],
+    "project_count": 0,
+    
+    # 자격증
     "certifications": [],
-    "awards": [],
-    "projects_count": 0,
-    "experience_years": None,
-    "summary_keywords": [],
-    "image_metrics": {},
+    "certification_count": 0,
+    
+    # 해외 경험
+    "overseas_experiences": [],  # [{type, country, duration}]
+    "overseas_count": 0,
+    
+    # 메타 정보
     "source_pdf": None,
     "error": None,
 }
@@ -291,4 +312,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-# ======================= 복붙 끝: resume_ocr_pipeline.py =======================
+
