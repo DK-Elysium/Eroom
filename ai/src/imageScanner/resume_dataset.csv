@@ -1,0 +1,8 @@
+﻿school,major,gpa,intern_company_scale,intern_total_months,intern_count,award_level,project_count,cert_count,has_language_cert,overseas_experience,company_size,industry,job_role,source_pdf
+Korea University,Computer Science,3.45,대기업,12,3,국제,2,3,True,Exchange,대기업,IT/Software,Data Scientist,John Doe.pdf
+" 
+서울과학기술대학교"," 
+서울과학기술대학교 전자공학과",,,0,0,,2,0,False,,,IT/Software,Software Engineer,이수현.pdf
+" 
+단국대학교"," 
+단국대학교 소프트웨어학과",3.87,대기업,15,3,전국,4,6,True,Exchange,대기업,IT/Software,Backend,홍길동.pdf
