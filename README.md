@@ -43,6 +43,7 @@
 <img width="180" height="360" alt="로그인화면" src="https://github.com/user-attachments/assets/7b494b8f-3403-4b49-bb69-fa97e2f63bad" />
 <img width="180" height="360" alt="pdf업로드화면" src="https://github.com/user-attachments/assets/297ef951-786e-4c9a-be4c-0a401b58a51d" />
 <img  width="180" height="360" alt="사용자스펙입력화면" src="https://github.com/user-attachments/assets/f56245c1-9199-4c33-9dab-cfb2caaa6d9d" />
+<img width="180" height="360" alt="목표회사입력화면" src="https://github.com/user-attachments/assets/701b7b22-25fb-442d-b68b-24a3a7f8561c" />
 <img  width="180" height="360" alt="홈화면" src="https://github.com/user-attachments/assets/a6e2a7ce-f14b-4d6b-9dc0-3602dbedd21e" />
 <img  width="180" height="360" alt="로드맵화면" src="https://github.com/user-attachments/assets/f03983bf-bcb2-4b99-843b-ac630f7de272" />
 <img width="195" height="390" alt="회사추천화면" src="https://github.com/user-attachments/assets/3c6fc464-5434-4e4e-ab08-939785930e8e" />
